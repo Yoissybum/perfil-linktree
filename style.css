@@ -147,3 +147,13 @@ h1 {
   align-items: center;justify-content: space-between; 
   width: 100%; 
 }
+
+.cookies {
+  color: white;
+  font-size: 10px;
+}
+
+.titulo-seccion {
+  color: white;
+  
+}
