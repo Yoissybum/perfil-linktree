@@ -17,10 +17,11 @@
     width: 80%;
     max-width: 630px;
     background: ;
-    margin: 30px auto;
+    margin: 0 30% 0 30%;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
+    justify-content: center;
   }
   
   .elementos-superiores {
@@ -46,10 +47,21 @@
     border-radius: 50%;
 }
 
-h1, .description p {
-    color: white; 
-    font-weight: 550px;
+h1 {
+  font-size: 20px;
+  color: white;
+  margin: 8px 0 10px 0px;
 }
+
+.descripcion {
+  font-size: 16px;
+  font-weight: 550;
+  color: white;
+  line-height: 150%;
+  margin: 8px 0 20px 0px;
+}
+
+
 
 .redes-sociales img {
     width: 20px; 
@@ -103,8 +115,8 @@ h1, .description p {
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    margin: 30px 0;
 }
+
 
 .grande-1, .grande-2 {
     background-size: cover; 
@@ -116,14 +128,22 @@ h1, .description p {
     color: #e2dfe7;
     position: relative;
     font-size: 16px;
-    text-align: center;
+    text-align: left; 
+    font-weight: 550;
+ 
 }
 
 .grande-1 {
     background-image: url(https://tikatheiggy.com/cdn/shop/files/rm8rzp4-front-shortedge-384_1024x1024@2x.jpg?v=1727981218);
+    margin: 18px 0px 50px 0px;
 }
 
 .grande-2 {
     background-image: url(https://images.cdn.geni.us/if_w_gt_1000,c_scale,w_1000/if_h_gt_1000,c_scale,h_1000/v1/vdqaj5u3df/Product%20Images/wzcs0hhoibnzqq8jwlgs.jpg);
 }
 
+.texto-card-grande {
+  display: flex; 
+  align-items: center;justify-content: space-between; 
+  width: 100%; 
+}
